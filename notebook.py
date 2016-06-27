@@ -41,7 +41,7 @@ class Notebook:
 
     def new_note(self, memo, tags=''):
         """
-        Create a new note and add ot to the list.
+        Create a new note and add it to the list.
         """
         self.notes.append(Note(memo, tags))
 
